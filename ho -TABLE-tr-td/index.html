@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>hoc table tr-td</title>
+  </head>
+  <body>
+    <h1>Học table tr td</h1>
+    <!-- TRONG CÁI BẢN TABLE LỚN NHẤT ÔM THEO 
+     3 NGƯỜI CON THEAD: MỞ BÀI ; TBODY: THÂN BÀI 
+     TFOOT:KẾT BÀI .MỖI ĐOẠN VĂN ĐỀU CÓ DÒNG, DONG CỦA 
+     ĐOẠN VĂN TR ÔM TRỌN CON NÓ LÀ NỘI DUNG TD 
+     DÒNG CÓ ĐÓNG MỞ.... THỤC HIỆN // VỚI THẺ IN ĐẬM  -->
+    <table>
+      <th>
+        <!-- mở bài cha còn sống-->
+        <tr>
+          <td>THAY PIN 15 PRM</td>
+          <td>THAY PIN 16 PRM</td>
+        </tr>
+      </th>
+      <tbody>
+        <!-- thân bài cha còn sống-->
+        <tr>
+          <td>GIÁ LINH KIỆN</td>
+          <td>GIÁ LINH KIỆN</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><strong>150000 </strong></td>
+          <td><strong> 25000</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- áp dụng thêm colspan để làm bài tập -->
+    <table>
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Gía sản phẩm</th>
+          <th>Số lượng còn lại</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Áo thun nam</td>
+          <td>100.000vnd</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Quần jean nữ</td>
+          <td>200.000vnd</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Giày thể thao</td>
+          <td>300.000vnd</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Remark</td>
+          <td colspan="2">Chi tiết sản phẩm trong kho</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- có thể sử dụng emet để viêt tắt lệnh th>tr*>td*theo 
+     dòng mong muốn -->
+    <!-- tạo ra cái để mote là ctril/ bên phải cho khỏi với
+      -->
+  </body>
+</html>
